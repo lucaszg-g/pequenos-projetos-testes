@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:wght@700;800&display=swap'); /*font-family: 'Vollkorn', serif;*/
+
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #e9e0d3;
+    margin: 301px;
+    margin-bottom: 0px;
+    margin-top: 44px;
+    
+}
+.tamanho{
+    width: 370px;
+    height: 500px;
+    display: inline-block;
+}
+#texto{
+    
+    background-color: rgb(245, 245, 245);
+}
+#classe{
+    font-size: 18px;
+    margin: 16px;
+    margin-left: 40px;
+}
+h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 1em;
+    margin: 18px;
+}
+p{
+    font-size: 17px;
+    padding-top: 5px;
+    margin-right: 53px;
+    margin-left: 16px;
+    color: #3f3f3f;
+    text-align: justify;
+    line-height: 1.5em;
+}
+#preco-desconto{
+    color: rgb(9, 78, 12);
+    font-family: 'Vollkorn', serif;
+    font-size: 1.8em;
+    display: inline;
+    margin-right: 0px;
+}
+#preco-sem-desconto{
+    font-family: 'Vollkorn', serif;
+    display: inline;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+button{
+    margin: 20px;
+    margin-top: 25px;
+    display: block;
+    width: 330px;
+    height: 70px;
+    font-size: 1.4em;
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(9, 78, 12);
+    border: none;
+    border-radius: 20px;
+}

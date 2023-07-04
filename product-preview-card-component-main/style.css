@@ -80,3 +80,12 @@ button{
     border: none;
     border-radius: 20px;
 }
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(13, 116, 19);
+    cursor: pointer;
+    width: 332px;
+    height: 72px;
+}

@@ -8,7 +8,10 @@
   <title>Product preview</title>
 </head>
 <body>
-    <img class="tamanho" src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau">
+    <picture>
+      <source media="(max-width: 715px)" srcset="images/image-product-mobile.jpg" type="image/jpg">
+      <img class="tamanho" src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau">
+    </picture>
     <div id="texto" class="tamanho">
         <p id="perfume-t">P E R F U M E</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>

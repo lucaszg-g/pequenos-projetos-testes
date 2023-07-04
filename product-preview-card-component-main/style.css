@@ -11,7 +11,11 @@ body{
     margin: 301px;
     margin-bottom: 0px;
     margin-top: 44px;
+    display: flex;
     
+}
+img{
+    border-radius: 20px 0px 0px 20px;
 }
 .tamanho{
     width: 370px;
@@ -19,10 +23,10 @@ body{
     display: inline-block;
 }
 #texto{
-    
     background-color: rgb(245, 245, 245);
+    border-radius: 0px 20px 20px 0px;
 }
-#classe{
+#perfume-t{
     font-size: 18px;
     margin: 16px;
     margin-left: 40px;
